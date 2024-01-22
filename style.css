@@ -1,0 +1,15 @@
+:root{
+    --warna_orange:#fb6a27;
+    --warna_abu: grey;
+}
+.warna_orange{
+    color: var(--warna_orange);
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: var(--warna_abu);
+}
+.navbar .navbar-nav .nav-item .nav-link:hover,
+.navbar .navbar-nav .nav-item .nav-link.active {
+    color: var(--warna_orange);
+}
